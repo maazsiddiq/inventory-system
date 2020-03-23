@@ -1,0 +1,169 @@
+.navbar{
+    padding: 20px;
+    background: rgba(0,0,0,0.3);
+}
+.navbar-nav a{
+    font-family: poppins;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar-search{
+    margin-left: 30px;
+} 
+.navb-shopingCart{
+    margin-left: 10px;
+}
+.w-100{
+    height: 100vh;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+@media only screen and (max-width: 767px){
+  
+    .navbar-toggler{
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+        background: #fff;
+    }
+}
+/* carousel styling */
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;   
+}
+.carousel-caption{
+    bottom: 100px;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: merienda;
+}
+.carousel-caption p{
+    width: 100%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    font-family: poppins;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    padding: 9px 60px;
+    display: inline-block;
+    color: rgba(0,0,0,0.9);
+    border:1px solid black;
+    background: rgba(0,0,0,0.5);
+    margin-top: 70px;
+    color: white;
+}
+ /*container*/
+ .card{
+    border: 1px solid white;
+}
+ .container-text{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-family: poppins;
+} 
+.line-hr{
+    width: 10%;
+}
+.container-para{
+    text-align: center;
+    padding-top: 5%;
+    padding-right: 20%;
+    padding-left: 20%;
+    color: rgba(0,0,0,0.5);
+}
+.container-image{
+    text-align: center;
+    color: #04B404;
+}
+.card-h3{
+    text-align: center;
+    padding-top: 20%;
+    margin: 0%;
+    letter-spacing: 1px;
+    font-family: merienda;
+    font-weight: bold;
+}
+.text-para{
+    text-align: center;
+    letter-spacing: 1px;
+}
+/* container our satisfied client (carousel)*/
+.our-carousel-logo{
+    padding-top: 10%;
+    text-align: center;
+    height: 15rem;
+}
+.carousel-body{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+}
+ /*container counters*/
+ .counter-h1{
+    text-align: center;
+    font-size: 70px;
+    padding-top: 10%;
+    color: #04B404;
+} 
+.h1-para{
+    text-align: center;
+    letter-spacing: 2px;
+}
+/* container blog styling*/
+.cont-blog{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.card-blog-title{
+    color: #04B404;
+    font-weight: bold;
+    margin: 0%;
+}
+.card-blog-date{
+    color: rgba(0,0,0,0.5);
+}
+.card-b-comment{
+    color: #04B404;
+    margin-left: 2%;   
+}
+.blog-view-link{
+    text-align: center;
+    padding-top: 1%;   
+}
+/* newsletter styling*/
+.newsletter-image{
+    width: 100%;
+    height: 80vh;
+}
+.news-letter-title{
+    text-align: center;
+    padding-top: 8%;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-family: poppins;
+}
+.news-letter-text{
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 20%; 
+    margin-bottom: 0%;
+}
+.newsletter-form{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
